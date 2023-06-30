@@ -32,7 +32,7 @@ public class MainController {
     @GetMapping("/save")
     public String saveCredential() {
         Credential cd = new Credential();
-        cd.setUsername("utkarsh");
+        cd.setUsername("ahateshaam");
         cd.setPassword("2025");
         credentialRepository.save(cd);
         return "New repo saved";

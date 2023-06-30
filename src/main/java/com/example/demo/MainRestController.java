@@ -21,9 +21,9 @@ public class MainRestController {
     @GetMapping("dummy")
     public Userdetail dummydetail() {
         Userdetail userdetail = new Userdetail();
-        userdetail.setUsername("tiwarri@2612");
-        userdetail.setEmail("uttu3101");
-        userdetail.setFname("Utkarsh");
+        userdetail.setUsername("alex");
+        userdetail.setEmail("ahateshaam");
+        userdetail.setFname("md ahteshaam");
         userdetail.setLname("Tiwari");
         userdetail.setPhone("9910002560 ");
         return userdetail;
